@@ -4,15 +4,24 @@
   padding: 0;
 }
 header {
-  max-width: 1100px;
   display: flex;
   justify-content: center;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text12 {
+  font-size: 12px;
+}
+.img_mun_cen {
+  align-items: center;
 }
 .direction {
   display: flex;
+  margin: auto;
   list-style-type: none;
   gap: 20px;
   color: black;
@@ -20,8 +29,12 @@ body {
 }
 .dollar {
   color: #2adb00;
-  font-size: 18px;
+  font-size: 20px;
   margin-right: 2px solid #ccc;
+}
+.head_img_s {
+  height: 20px;
+  max-width: 20px;
 }
 li {
   text-decoration: none;
@@ -29,6 +42,8 @@ li {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   border: -15px 0px;
+  align-items: center;
+  margin-top: 10px;
 }
 .headers {
   display: flex;
@@ -39,9 +54,11 @@ li {
 .list {
   display: flex;
   flex-direction: row;
-  margin: 0px 84px 0px 20px;
+  margin: 10px 84px 0px 20px;
+  list-style-type: none;
 }
 .logo {
+  margin: 20px 0px 0px 0px;
   width: 119px;
   height: 39px;
 }
@@ -49,4 +66,62 @@ li {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.section1 {
+  padding: 5px;
+  margin: 10px;
+  background-color: linear-gradient(
+    90deg,
+    hsla(0, 0%, 95.7%, 0.03) 7%,
+    hsla(0, 0%, 100%, 0) 17%
+  );
+  border-radius: 5px;
+}
+.general {
+  max-width: 1200px;
+  display: flex;
+  padding: 10px;
+  position: relative;
+}
+.container1 {
+}
+button {
+  width: 93px;
+  height: 30px;
+  background-color: linear-gradient(129deg, #c40097, #d6710b);
+  background-image: linear-gradient(-120deg, #e08100, #c90027);
+  color: white;
+  border: none;
+  border-radius: 100px;
+  padding: 8px 15px;
+}
+button:hover {
+  width: 113px;
+  transition: all 0.2s ease-in-out;
+}
+h2 {
+  padding: 10px 30px 0px 0px;
+  margin: 10px 0px 20px 0px;
+  opacity: 0.4;
+  cursor: pointer;
+}
+.text_sa {
+  font-size: 13px;
+  margin: 10px 0px 20px 0px;
+  color: rgb(108, 108, 108);
+  min-height: 48px;
+  font-weight: 500;
+}
+.img_size2 {
+  position: absolute;
+  width: 50%;
+  border-radius: 5px;
+}
+.size {
+  position: absolute;
+  width: 50%;
 }
