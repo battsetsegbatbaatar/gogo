@@ -15,6 +15,7 @@ header {
   width: 1200px;
   display: flex;
   gap: 58px;
+  justify-content: space-between;
 }
 a {
   text-decoration: none;
@@ -82,6 +83,7 @@ main {
   );
   padding: 0px 0px 0px 40px;
   border-radius: 10px;
+  position: relative;
 }
 button {
   background: linear-gradient(129deg, #c40097, #d6710b);
@@ -93,6 +95,8 @@ button {
   border-radius: 100px;
   color: white;
   font-weight: 500;
+}
+.button_color {
 }
 button:hover {
   width: 113px;
@@ -119,10 +123,12 @@ button:hover {
   justify-content: space-around;
 }
 .content2 {
+  position: absolute;
+  width: 50%;
   height: 100%;
   overflow: hidden;
   border-radius: 10px;
-  padding: 0px 0px 0px 15px;
+  margin: 0px 0px 0px 15px;
 }
 .share {
   background-color: #f0efef !important;
