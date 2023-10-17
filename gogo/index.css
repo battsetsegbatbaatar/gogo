@@ -24,7 +24,6 @@ a {
   display: flex;
   gap: 30px;
   border-top: 10px;
-  justify-content: space-between;
 }
 .container {
   display: flex;
@@ -73,12 +72,12 @@ main {
   width: 1200px;
   height: 385px;
   display: flex;
-  border: 2px solid
-    linear-gradient(90deg, #f4f4f4 7%, hsla(0, 0%, 100%, 0.220348) 17%);
+  border: 2px solid #f4f4f4;
+  background: #f4f4f4;
   background: linear-gradient(
     90deg,
-    #f4f4f4 7%,
-    hsla(0, 0%, 100%, 0.220348) 17%
+    hsla(0, 0%, 95.7%, 0.03) 7%,
+    hsla(0, 0%, 100%, 0) 17%
   );
   padding: 0px 0px 0px 40px;
   border-radius: 10px;
@@ -114,19 +113,11 @@ button:hover {
 .content1 {
   width: 50%;
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
 }
 .content2 {
   height: 100%;
   overflow: hidden;
   border-radius: 10px;
-  padding: 0px 0px 0px 15px;
 }
 .share {
-  background-color: #f0efef !important;
-}
-.share:hover {
-  transition: all 0.4s ease-in-out !important;
 }
